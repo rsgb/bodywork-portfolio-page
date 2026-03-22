@@ -228,13 +228,6 @@ export default function App() {
           </div>
         </Section>
 
-        <div className={styles.ctaBand}>
-          <div className={styles.ctaBandInner}>
-            <p className={styles.ctaBandText}>{tr.ctaBand.text}</p>
-            <Button href="#contact">{tr.ctaBand.button}</Button>
-          </div>
-        </div>
-
         <Section id="disclaimer" variant="compact">
           <Reveal>
             <Heading level={2}>{tr.disclaimer.heading}</Heading>

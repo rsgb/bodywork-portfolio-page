@@ -125,10 +125,6 @@ export const translations = {
       languagesLabel: 'Sprachen',
       languagesValue: 'Deutsch, Englisch',
     },
-    ctaBand: {
-      text: 'Ich freue mich auf deine Nachricht.',
-      button: 'Sitzung anfragen',
-    },
     disclaimer: {
       heading: 'Hinweis',
       body: 'Diese Arbeit wird als Körperarbeit für Wohlbefinden, Entspannung und Wahrnehmung angeboten. Sie ist keine medizinische Behandlung und ersetzt keine ärztliche, physiotherapeutische oder psychotherapeutische Begleitung. Es werden keine Diagnosen gestellt und keine Heilversprechen gegeben. Bei akuten oder ernsthaften gesundheitlichen Beschwerden wende Dich bitte an eine entsprechend qualifizierte Fachperson.',
@@ -260,10 +256,6 @@ export const translations = {
       emailLabel: 'Email',
       languagesLabel: 'Languages',
       languagesValue: 'German, English',
-    },
-    ctaBand: {
-      text: 'I would be glad to hear from you.',
-      button: 'Book a session',
     },
     disclaimer: {
       heading: 'Please note',
