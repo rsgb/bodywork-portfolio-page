@@ -56,6 +56,8 @@ export default function App() {
               <p>{tr.intro.p2}</p>
               <p>{tr.intro.p3}</p>
               <p>{tr.intro.p4}</p>
+              <p>{tr.intro.p5}</p>
+              <p>{tr.intro.p6}</p>
             </div>
           </Reveal>
         </Section>

@@ -33,10 +33,12 @@ export const translations = {
     },
     intro: {
       heading: 'Was ist Rebalancing?',
-      p1: 'Rebalancing ist eine integrative Faszien- und Körperarbeit, die den Menschen als Einheit von Körper, Geist und Seele betrachtet. Mit achtsamer Berührung und langsamen, gezielten Strichen wird mit oberflächlichen und tieferen Bindegewebsstrukturen gearbeitet — mit dem Fasziennetz, das den ganzen Körper durchzieht.',
-      p2: 'Faszien verbinden und umhüllen Knochen, Muskeln, Gelenke, Organe und Gefässe. Sie geben dem Körper Halt und Beweglichkeit und reagieren sensibel auf Belastung, Spannung und innere Zustände.',
-      p3: 'Rebalancing hat Einflüsse unter anderem aus Rolfing, craniosacraler Arbeit und weiteren körperorientierten Ansätzen. Im Mittelpunkt steht nicht, den Körper zu „reparieren“, sondern einen Raum für Wahrnehmung, Regulation und Integration zu öffnen.',
-      p4: 'Es ist keine klassische Massage. Atem, Präsenz, Berührung und die bewusste Wahrnehmung des eigenen Körpers sind wesentliche Bestandteile der Arbeit.',
+      p1: 'Rebalancing ist eine integrative Faszien- und Körperarbeit, die den Menschen als Einheit von Körper, Seele und Geist betrachtet.',
+      p2: 'Ihr zu Grunde liegen Ganzheitlichkeit, Individualität und Selbstregulation. Der Mensch wird dabei als lebendige Einheit verstanden, die in ständiger Wechselwirkung mit ihrem Umfeld steht.',
+      p3: 'Mit achtsamer Berührung und langsamen, gezielten Strichen wird mit oberflächlichen und tieferen Bindegewebsstrukturen gearbeitet — mit dem Fasziennetz, das den ganzen Körper durchzieht.',
+      p4: 'Faszien verbinden und umhüllen Knochen, Muskeln, Gelenke, Organe und Gefässe. Sie geben dem Körper Halt und Beweglichkeit und reagieren sensibel auf Belastung, Spannung und innere Zustände.',
+      p5: 'Rebalancing hat Einflüsse unter anderem aus Rolfing, craniosacraler Arbeit und weiteren körperorientierten Ansätzen. Im Mittelpunkt steht nicht, den Körper zu „reparieren“, sondern einen Raum für Wahrnehmung, Regulation und Integration zu öffnen.',
+      p6: 'Es ist keine klassische Massage. Atem, Präsenz, Berührung und die bewusste Wahrnehmung des eigenen Körpers sind wesentliche Bestandteile der Arbeit.',
     },
     about: {
       heading: 'Über mich',
@@ -161,10 +163,12 @@ export const translations = {
     },
     intro: {
       heading: 'What is Rebalancing?',
-      p1: 'Rebalancing is an integrative form of fascia and bodywork that addresses the human being as a whole — body, mind, and soul. Through attentive touch and slow, precise strokes, it works with superficial and deeper connective tissue structures — with the fascial network that runs through the whole body.',
-      p2: 'Fascia connects and surrounds bones, muscles, joints, organs, and vessels. It gives the body support and mobility, and it responds sensitively to strain, tension, and inner states.',
-      p3: 'Rebalancing has been shaped by influences such as Rolfing, craniosacral work, and other body-based approaches. The focus is not on “fixing” the body, but on opening a space for awareness, regulation, and integration.',
-      p4: 'It is not a typical massage. Breath, presence, touch, and conscious body awareness are all essential parts of the work.',
+      p1: 'Rebalancing is an integrative form of fascia and bodywork that approaches the human being as a unity of body, soul, and mind.',
+      p2: 'It is grounded in wholeness, individuality, and self-regulation. The person is understood as a living whole that is constantly in interaction with their environment.',
+      p3: 'Through attentive touch and slow, precise strokes, it works with superficial and deeper connective tissue structures — with the fascial network that runs through the whole body.',
+      p4: 'Fascia connects and surrounds bones, muscles, joints, organs, and vessels. It gives the body support and mobility, and it responds sensitively to strain, tension, and inner states.',
+      p5: 'Rebalancing has been shaped by influences such as Rolfing, craniosacral work, and other body-based approaches. The focus is not on “fixing” the body, but on opening a space for awareness, regulation, and integration.',
+      p6: 'It is not a typical massage. Breath, presence, touch, and conscious body awareness are all essential parts of the work.',
     },
     about: {
       heading: 'About me',
