@@ -1,6 +1,8 @@
-/** Contact details — used for mailto:, tel:, and display. */
+/** Contact details — used for mailto:, tel:, WhatsApp, and display. */
 export const contact = {
-  email: 'rebalancing.elias@gmail.com',
-  phoneDisplay: '+49 (0) 15731971061',
+  email: 'lasseeliaskrause@gmail.com',
+  phoneDisplay: '+49 157 3197 1061',
   phoneTel: '+4915731971061',
+  /** Opens WhatsApp chat with the same number (mobile-friendly). */
+  whatsappHref: 'https://wa.me/4915731971061',
 }

@@ -34,27 +34,30 @@ export function HomePage() {
   return (
     <main className={styles.main}>
       <section id="hero" className={styles.heroSection} aria-labelledby="hero-title">
-        <div className={styles.heroImageWrap}>
+        <div className={styles.heroMedia}>
           <ResponsiveImage
             src={images.hero.src}
             alt={images.hero.alt}
             priority
             className={styles.heroFigure}
-            sizes="(min-width: 901px) 48vw, 100vw"
+            sizes="100vw"
           />
-          <div className={styles.heroGradient} aria-hidden="true" />
+          <div className={styles.heroScrim} aria-hidden="true" />
         </div>
-        <div className={styles.heroContent}>
-          <h1 className={styles.heroTitle} id="hero-title">
-            <span className={styles.heroMainTitle}>{tr.hero.mainTitle}</span>
-            <span className={styles.heroPractitioner}>{tr.hero.practitioner}</span>
-          </h1>
-          <p className={styles.heroTagline}>{tr.hero.tagline}</p>
-          <div className={styles.ctaRow}>
-            <Button to="/#contact">{tr.hero.book}</Button>
-            <Button to="/#contact" variant="secondary">
-              {tr.hero.secondaryCta}
-            </Button>
+        <div className={styles.heroInner}>
+          <p className={styles.heroKicker}>{tr.nav.brand}</p>
+          <div className={styles.heroTextBlock}>
+            <h1 className={styles.heroTitle} id="hero-title">
+              <span className={styles.heroMainTitle}>{tr.hero.mainTitle}</span>
+              <span className={styles.heroPractitioner}>{tr.hero.practitioner}</span>
+            </h1>
+            <p className={styles.heroTagline}>{tr.hero.tagline}</p>
+            <div className={styles.ctaRow}>
+              <Button to="/#contact">{tr.hero.book}</Button>
+              <Button to="/#contact" variant="secondary">
+                {tr.hero.secondaryCta}
+              </Button>
+            </div>
           </div>
         </div>
       </section>
@@ -227,7 +230,12 @@ export function HomePage() {
                 </li>
               </ul>
               <div className={styles.contactActions}>
-                <Button href={`mailto:${contact.email}`}>{tr.hero.book}</Button>
+                <Button href={contact.whatsappHref} rel="noopener noreferrer">
+                  {tr.contact.whatsappCta}
+                </Button>
+                <Button href={`mailto:${contact.email}`} variant="secondary">
+                  {tr.hero.book}
+                </Button>
               </div>
             </div>
           </Reveal>

@@ -1,18 +1,19 @@
 :root {
-  --color-bg: #faf7f1;
-  --color-bg-elevated: #fffefb;
-  --color-sand: #ebe4d8;
-  --color-sand-deep: #d9d0c2;
-  --color-wash: #f3ece2;
+  --color-bg: #f7efe4;
+  --color-bg-elevated: #fff7ee;
+  --color-sand: #eae0d4;
+  --color-sand-deep: #d8cbbf;
+  --color-wash: #efe4d4;
   --color-olive: #5a6b52;
   --color-olive-muted: #7a8872;
   --color-olive-strong: #4a5a44;
-  --color-text: #2a2824;
-  --color-text-soft: #5a564e;
+  --color-text: #2c2822;
+  --color-text-soft: #5c564c;
   --color-border: rgba(74, 90, 68, 0.12);
   --color-border-strong: rgba(74, 90, 68, 0.2);
 
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   --font-serif: 'Inter', system-ui, -apple-system, sans-serif;
 
   --space-xs: 0.5rem;

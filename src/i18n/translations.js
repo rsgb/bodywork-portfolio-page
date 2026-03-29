@@ -7,7 +7,7 @@ export const translations = {
     meta: {
       title: 'Elias Krause — Rebalancing',
       description:
-        'Rebalancing-Sitzungen für Erdung, Wahrnehmung und tieferen Kontakt mit Deinem Körper — Elias Krause, Körperarbeit.',
+        'Faszien- und Körperarbeit für Erdung, Wahrnehmung und tieferen Kontakt — Rebalancing mit Elias Krause.',
     },
     nav: {
       brand: 'Elias Krause, Körperarbeit',
@@ -27,14 +27,14 @@ export const translations = {
       mainTitle: 'Rebalancing',
       practitioner: 'Elias Krause',
       tagline:
-        'Rebalancing-Sitzungen für Erdung, Wahrnehmung und tieferen Kontakt mit Deinem Körper.',
+        'Faszien- und Körperarbeit für Erdung, Wahrnehmung und tieferen Kontakt mit Deinem Körper.',
       book: 'Sitzung anfragen',
       secondaryCta: 'Kontakt aufnehmen',
     },
     intro: {
       heading: 'Was ist Rebalancing?',
-      p1: 'Rebalancing ist eine integrative Faszien- und Körperarbeit, die den Menschen als Einheit von Körper, Seele und Geist betrachtet.',
-      p2: 'Ihr zu Grunde liegen Ganzheitlichkeit, Individualität und Selbstregulation. Der Mensch wird dabei als lebendige Einheit verstanden, die in ständiger Wechselwirkung mit ihrem Umfeld steht.',
+      p1: 'Rebalancing ist eine integrative Faszien- und Körperarbeit, die den Menschen als Einheit von Körper, Geist und Seele betrachtet.',
+      p2: 'Sie basiert auf Ganzheitlichkeit, Individualität und Selbstregulation. Der Mensch wird dabei als lebendige Einheit verstanden, die in ständiger Wechselwirkung mit ihrem Umfeld steht.',
       p3: 'Mit achtsamer Berührung und langsamen, gezielten Strichen wird mit oberflächlichen und tieferen Bindegewebsstrukturen gearbeitet — mit dem Fasziennetz, das den ganzen Körper durchzieht.',
       p4: 'Faszien verbinden und umhüllen Knochen, Muskeln, Gelenke, Organe und Gefässe. Sie geben dem Körper Halt und Beweglichkeit und reagieren sensibel auf Belastung, Spannung und innere Zustände.',
       p5: 'Rebalancing hat Einflüsse unter anderem aus Rolfing, craniosacraler Arbeit und weiteren körperorientierten Ansätzen. Im Mittelpunkt steht nicht, den Körper zu „reparieren“, sondern einen Raum für Wahrnehmung, Regulation und Integration zu öffnen.',
@@ -42,9 +42,9 @@ export const translations = {
     },
     about: {
       heading: 'Über mich',
-      p1: 'Seit Langem fühle ich mich von Körperarbeit angezogen und von der Möglichkeit, Menschen durch Berührung in ihrem Wohlbefinden zu unterstützen.',
+      p1: 'Ich fühle mich seit Langem von Körperarbeit angezogen und von der Möglichkeit, Menschen durch Berührung in ihrem Wohlbefinden zu unterstützen.',
       p2: 'Zum Rebalancing hat mich besonders die Qualität dieser Arbeit geführt: Präsenz, Tiefe und die Erfahrung, dass Berührung mehr sein kann als Technik — nämlich ein achtsamer Kontakt mit dem, was im Körper gerade da ist.',
-      p3: 'Meine Ausbildung habe ich über zwei Jahre in Deutschland und der Schweiz gemacht. Zurzeit begleite ich als Assistent einen weiteren Ausbildungszyklus, was meinen eigenen Weg weiter vertieft.',
+      p3: 'Ich habe eine zweijährige Ausbildung in Deutschland und der Schweiz gemacht. Zurzeit begleite ich als Assistent einen weiteren Ausbildungszyklus, was meinen eigenen Weg weiter vertieft.',
       p4: 'In meiner Arbeit geht es mir darum, aufmerksam zuzuhören, mit dem zu arbeiten, was tatsächlich gegenwärtig ist, und Menschen dabei zu unterstützen, mehr Kontakt zu sich selbst zu finden.',
     },
     support: {
@@ -67,7 +67,7 @@ export const translations = {
     session: {
       heading: 'Wie eine Sitzung abläuft',
       p1: 'Eine Sitzung dauert in der Regel etwa 90 Minuten, längere oder kürzere Formate sind nach Absprache ebenfalls möglich. Sie beginnt meist mit einem kurzen Gespräch und manchmal mit einem stillen Moment, um mehr im gegenwärtigen Moment anzukommen.',
-      p2: 'Danach können Körperwahrnehmung, ein einfaches Body Reading im Stehen und die Arbeit mit Berührung Teil der Sitzung sein. Im Mittelpunkt steht nicht eine äussere Deutung, sondern die Frage, was im Moment tatsächlich wahrnehmbar und lebendig ist.',
+      p2: 'Danach können Körperwahrnehmung, Body Reading, die Arbeit mit Berührung und Behandlungstechniken Teil der Sitzung sein. Im Mittelpunkt steht nicht eine äussere Deutung, sondern die Frage, was im Moment tatsächlich wahrnehmbar und lebendig ist.',
       p3: 'Die Berührung kann fein oder tiefergehend sein — je nachdem, was gerade sinnvoll ist. Entscheidend ist nicht Intensität, sondern Präsenz, Kommunikation und das, was der Körper in diesem Moment aufnehmen kann.',
       p4: 'Viele Menschen erleben nach einer Sitzung mehr Ruhe, Erdung, innere Klarheit oder einen stärkeren Kontakt zu sich selbst. Andere erleben die Arbeit als belebend oder aktivierend. Es kann hilfreich sein, sich danach etwas Zeit zu lassen, bevor man direkt in den nächsten Termin geht.',
     },
@@ -125,6 +125,7 @@ export const translations = {
       emailLabel: 'E-Mail',
       languagesLabel: 'Sprachen',
       languagesValue: 'Deutsch, Englisch',
+      whatsappCta: 'Auf WhatsApp schreiben',
     },
     footer: {
       name: 'Elias Krause',
@@ -199,13 +200,13 @@ export const translations = {
     meta: {
       title: 'Elias Krause — Rebalancing',
       description:
-        'Rebalancing sessions for grounding, awareness, and deeper contact with your body — Elias Krause, bodywork.',
+        'Fascia and bodywork for grounding, awareness, and deeper contact with your body — Rebalancing with Elias Krause.',
     },
     nav: {
       brand: 'Elias Krause, Bodywork',
       intro: 'Rebalancing',
       about: 'About',
-      support: 'Support',
+      support: 'Benefits',
       session: 'Session',
       offering: 'Formats & prices',
       contact: 'Contact',
@@ -219,13 +220,13 @@ export const translations = {
       mainTitle: 'Rebalancing',
       practitioner: 'Elias Krause',
       tagline:
-        'Rebalancing sessions for grounding, awareness, and deeper contact with your body.',
+        'Fascia and bodywork sessions for grounding, awareness, and deeper contact with your body.',
       book: 'Book a session',
       secondaryCta: 'Get in touch',
     },
     intro: {
       heading: 'What is Rebalancing?',
-      p1: 'Rebalancing is an integrative form of fascia and bodywork that approaches the human being as a unity of body, soul, and mind.',
+      p1: 'Rebalancing is an integrative form of fascia and bodywork that approaches the human being as a whole — body, mind, and soul.',
       p2: 'It is grounded in wholeness, individuality, and self-regulation. The person is understood as a living whole that is constantly in interaction with their environment.',
       p3: 'Through attentive touch and slow, precise strokes, it works with superficial and deeper connective tissue structures — with the fascial network that runs through the whole body.',
       p4: 'Fascia connects and surrounds bones, muscles, joints, organs, and vessels. It gives the body support and mobility, and it responds sensitively to strain, tension, and inner states.',
@@ -236,7 +237,7 @@ export const translations = {
       heading: 'About me',
       p1: 'I have been drawn to bodywork for a long time and to the possibility of supporting people’s well-being through touch.',
       p2: 'What brought me especially to Rebalancing was the quality I experienced in it: presence, depth, and the sense that touch can be more than technique — it can be a careful contact with what is actually present in the body.',
-      p3: 'I completed my training over two years in Germany and Switzerland. At the moment, I am also assisting in another training cycle, which continues to deepen my own path and understanding.',
+      p3: 'I completed a two-year training in Germany and Switzerland. At the moment, I am also assisting in another training cycle, which continues to deepen my own path and understanding.',
       p4: 'In my work, I try to listen carefully, work with what is truly present, and support people in finding a deeper connection with themselves.',
     },
     support: {
@@ -259,7 +260,7 @@ export const translations = {
     session: {
       heading: 'What happens in a session',
       p1: 'A session usually lasts around 90 minutes, although shorter or longer formats are also possible by agreement. It often begins with a short conversation and sometimes with a quiet moment to arrive more fully in the present.',
-      p2: 'From there, body awareness, a simple standing body reading, and hands-on work may all become part of the session. The focus is not on imposing an outside interpretation, but on sensing what is actually present and alive in the moment.',
+      p2: 'From there, body awareness, body reading, hands-on work, and manual techniques may all become part of the session. The focus is not on imposing an outside interpretation, but on sensing what is actually present and alive in the moment.',
       p3: 'The touch can be subtle or deeper, depending on what is needed. What matters is not intensity, but presence, communication, and what the body is ready to meet.',
       p4: 'Many people leave a session feeling calmer, more grounded, clearer inside, or more in contact with themselves. Others experience the work as energising or activating. It can help to leave a little space afterwards rather than rushing straight into the next thing.',
     },
@@ -317,6 +318,7 @@ export const translations = {
       emailLabel: 'Email',
       languagesLabel: 'Languages',
       languagesValue: 'German, English',
+      whatsappCta: 'Message on WhatsApp',
     },
     footer: {
       name: 'Elias Krause',
