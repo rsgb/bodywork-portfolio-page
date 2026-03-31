@@ -10,6 +10,7 @@ import { TestimonialsPlaceholder } from '../components/TestimonialsPlaceholder/T
 import { SessionSeriesGrid } from '../components/SessionSeriesGrid/SessionSeriesGrid'
 import { useTranslations } from '../context/LanguageContext'
 import { images } from '../data/images'
+import { ContactForm } from '../components/ContactForm/ContactForm'
 import { contact } from '../data/contact'
 import styles from '../App.module.css'
 
@@ -211,28 +212,16 @@ export function HomePage() {
             <div>
               <Heading level={2}>{tr.contact.heading}</Heading>
               <Text>{tr.contact.intro}</Text>
-              <ul className={styles.contactList}>
-                <li>
-                  <span className={styles.contactLabel}>{tr.contact.phoneLabel}</span>
-                  <a href={`tel:${contact.phoneTel}`}>{contact.phoneDisplay}</a>
-                </li>
-                <li>
-                  <span className={styles.contactLabel}>{tr.contact.emailLabel}</span>
-                  <a href={`mailto:${contact.email}`}>{contact.email}</a>
-                </li>
-                <li>
-                  <span className={styles.contactLabel}>{tr.contact.languagesLabel}</span>
-                  <span>{tr.contact.languagesValue}</span>
-                </li>
-              </ul>
+              <p className={styles.contactPhoneRow}>
+                <span className={styles.contactPhoneLabel}>{tr.contact.phoneLabel}</span>
+                <a href={`tel:${contact.phoneTel}`}>{contact.phoneDisplay}</a>
+              </p>
               <div className={styles.contactActions}>
-                <Button href={contact.whatsappHref} rel="noopener noreferrer">
+                <Button href={contact.whatsappHref} target="_blank" rel="noopener noreferrer">
                   {tr.contact.whatsappCta}
                 </Button>
-                <Button href={`mailto:${contact.email}`} variant="secondary">
-                  {tr.contact.emailCta}
-                </Button>
               </div>
+              <ContactForm />
             </div>
           </Reveal>
           <Reveal delay={80} className={styles.contactAside}>

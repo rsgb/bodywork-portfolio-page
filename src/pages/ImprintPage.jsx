@@ -36,9 +36,8 @@ export function ImprintPage() {
           <Heading level={3} className={styles.legalSubheading}>
             {tr.legal.imprint.contactHeading}
           </Heading>
+          <p className={styles.legalText}>{tr.legal.imprint.contactIntro}</p>
           <p className={styles.legalContact}>
-            <a href={`mailto:${contact.email}`}>{contact.email}</a>
-            <br />
             <a href={`tel:${contact.phoneTel}`}>{contact.phoneDisplay}</a>
           </p>
         </div>

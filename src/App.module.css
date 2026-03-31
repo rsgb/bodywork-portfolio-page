@@ -140,19 +140,6 @@
   background-position: center 56%;
 }
 
-.imageBand::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    105deg,
-    rgba(247, 239, 228, 0.35) 0%,
-    rgba(247, 239, 228, 0.15) 50%,
-    rgba(247, 239, 228, 0.25) 100%
-  );
-  pointer-events: none;
-}
-
 /* ——— Prose & splits ——— */
 .proseStack {
   display: flex;
@@ -438,41 +425,155 @@
   }
 }
 
-.contactList {
-  list-style: none;
-  padding: 0;
-  margin: var(--space-md) 0 0;
-}
-
-.contactList li {
-  margin-bottom: var(--space-sm);
-  padding-bottom: var(--space-sm);
-  border-bottom: 1px solid var(--color-border-strong);
-  font-size: 0.9375rem;
-  line-height: 1.5;
-}
-
-.contactList li:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.contactLabel {
-  display: block;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--color-olive-muted);
-  margin-bottom: 0.25rem;
-}
-
 .contactActions {
   margin-top: var(--space-md);
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-sm);
+}
+
+.contactPhoneRow {
+  margin: var(--space-md) 0 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.contactPhoneLabel {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-olive-muted);
+}
+
+.contactFormBlock {
+  margin-top: var(--space-lg);
+  max-width: min(36rem, 100%);
+}
+
+.contactFormHeading {
+  margin: 0 0 var(--space-sm);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--color-olive-strong);
+}
+
+.contactForm {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.contactFormRow {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+@media (min-width: 600px) {
+  .contactFormRow {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+  }
+}
+
+.contactFormField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin: 0;
+}
+
+.contactFormLabel {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-olive-muted);
+}
+
+.contactFormInput,
+.contactFormTextarea {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: var(--color-text);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-sand-deep);
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 0.85rem;
+  transition: border-color 0.2s var(--ease-out);
+}
+
+.contactFormInput::placeholder,
+.contactFormTextarea::placeholder {
+  color: var(--color-olive-muted);
+  opacity: 0.75;
+}
+
+.contactFormInput:hover,
+.contactFormTextarea:hover {
+  border-color: rgba(74, 90, 68, 0.32);
+}
+
+.contactFormInput:focus,
+.contactFormTextarea:focus {
+  outline: none;
+  border-color: var(--color-olive-muted);
+  box-shadow: 0 0 0 2px rgba(90, 107, 82, 0.12);
+}
+
+.contactFormTextarea {
+  resize: vertical;
+  min-height: 6.5rem;
+}
+
+.contactFormHoneypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  pointer-events: none;
+}
+
+.contactFormFooter {
+  margin-top: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+
+.contactFormSubmit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.contactFormFeedback {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--color-olive-muted);
+}
+
+.contactFormFeedbackError {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--color-text-soft);
 }
 
 .footer {
@@ -498,21 +599,6 @@
   margin: 0;
   font-size: 0.875rem;
   color: var(--color-text-soft);
-}
-
-.footerContact {
-  margin: var(--space-sm) 0 0;
-  font-size: 0.8125rem;
-  color: var(--color-text-soft);
-}
-
-.footerContact a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.footerContact a:hover {
-  color: var(--color-olive-strong);
 }
 
 .footerCopy {

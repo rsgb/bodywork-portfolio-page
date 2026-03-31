@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { useTranslations } from '../../context/LanguageContext'
-import { contact } from '../../data/contact'
 import styles from '../../App.module.css'
 
 export function SiteFooter() {
@@ -12,9 +11,6 @@ export function SiteFooter() {
       <div className={styles.footerInner}>
         <p className={styles.footerName}>{tr.footer.name}</p>
         <p className={styles.footerTag}>{tr.footer.tag}</p>
-        <p className={styles.footerContact}>
-          <a href={`mailto:${contact.email}`}>{contact.email}</a>
-        </p>
         <p className={styles.footerCopy}>
           © {year} {tr.footer.name} · {tr.footer.photosCredit}
         </p>
