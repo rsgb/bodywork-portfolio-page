@@ -67,7 +67,7 @@ export const translations = {
       heading: "Wie eine Sitzung abläuft",
       p1: "Eine Sitzung dauert in der Regel etwa 90 Minuten, längere oder kürzere Formate sind nach Absprache ebenfalls möglich. Sie beginnt meist mit einem kurzen Gespräch und manchmal mit einem stillen Moment, um mehr im gegenwärtigen Moment anzukommen.",
       p2: "Danach können Körperwahrnehmung, Body Reading, die Arbeit mit Berührung und Behandlungstechniken Teil der Sitzung sein. Im Mittelpunkt steht nicht eine äussere Deutung, sondern die Frage, was im Moment tatsächlich wahrnehmbar und lebendig ist.",
-      p3: "Die Berührung kann fein oder tiefergehend sein — je nachdem, was gerade sinnvoll ist. Entscheidend ist nicht Intensität, sondern Präsenz, Kommunikation und das, was der Körper in diesem Moment aufnehmen kann.",
+      p3: "Die Berührung kann fein oder tiefergehend sein — je nachdem, was gerade sinnvoll ist. Entscheidend ist nicht Intensität, sondern Präsenz, Kommunikation und das, was der Körper bereit ist zu erfahren.",
       p4: "Viele Menschen erleben nach einer Sitzung mehr Ruhe, Erdung, innere Klarheit oder einen stärkeren Kontakt zu sich selbst. Andere erleben die Arbeit als belebend oder aktivierend. Es kann hilfreich sein, sich danach etwas Zeit zu lassen, bevor man direkt in den nächsten Termin geht.",
     },
     offering: {
@@ -102,9 +102,9 @@ export const translations = {
           title: "1. Brustkorb & Zwerchfell",
           body: "Inspiration, Aufrichtung, Atmen.",
         },
-        { title: "2. Beine", body: "Meinen Standpunkt finden, zu mir stehen." },
+        { title: "2. Füße & Beine", body: "Meinen Standpunkt finden, zu mir stehen." },
         {
-          title: "3. Schultern",
+          title: "3. Schultern & Körperseite",
           body: "Geben und Nehmen, Grenzen wahrnehmen, in Beziehung treten.",
         },
         {
@@ -116,7 +116,7 @@ export const translations = {
           body: "Ins Zentrum kommen, Vertrauen, Verdauen, Selbstannahme.",
         },
         { title: "6. Rücken", body: "Aufrichtigkeit und Zurückhaltung." },
-        { title: "7. Kopf", body: "Wahrnehmung und Veränderung." },
+        { title: "7. Nacken & Kopf", body: "Wahrnehmung und Veränderung." },
         {
           title: "8–10. Integration",
           body: "Die Teile zusammenbringen, ganz werden, frei sein in Verbundenheit.",
@@ -307,11 +307,11 @@ export const translations = {
           body: "Inspiration, uprightness, breathing.",
         },
         {
-          title: "2. Legs",
-          body: "Finding my standpoint, standing with myself.",
+          title: "2. Feet & Legs",
+          body: "Finding my standpoint, standing up for myself.",
         },
         {
-          title: "3. Shoulders",
+          title: "3. Shoulders & Body-side",
           body: "Giving and receiving, sensing boundaries, entering into relationship.",
         },
         {
@@ -323,7 +323,7 @@ export const translations = {
           body: "Coming to the centre, trust, digestion, self-acceptance.",
         },
         { title: "6. Back", body: "Uprightness and holding back." },
-        { title: "7. Head", body: "Perception and change." },
+        { title: "7. Neck & Head", body: "Perception and change." },
         {
           title: "8–10. Integration",
           body: "Bringing the parts together, becoming whole, being free in connection.",
